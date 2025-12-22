@@ -1,0 +1,167 @@
+// 本地番剧数据配置
+export type AnimeItem = {
+	title: string;
+	status: "watching" | "completed" | "planned";
+	rating: number;
+	cover: string;
+	description: string;
+	episodes: string;
+	year: string;
+	genre: string[];
+	studio: string;
+	link: string;
+	progress: number;
+	totalEpisodes: number;
+	startDate: string;
+	endDate: string;
+};
+
+const localAnimeList: AnimeItem[] = [
+	{
+		title: "画江湖之不良人",
+		status: "completed",
+		rating: 9.8,
+		cover: "/assets/anime/blr.webp",
+		description: "一天是不良人，一辈子都是!",
+		episodes: "12 episodes",
+		year: "2014",
+		genre: ["国漫", "热血", "原创"],	
+		studio: "若森数字",
+		link: "https://yhdm.org.cn/p/43231/",
+		progress: 8,
+		totalEpisodes: 12,
+		startDate: "2025-07",
+		endDate: "2025-10",
+	},
+	{
+		title: "灵笼2",
+		status: "watching",
+		rating: 9.3,
+		cover: "/assets/anime/ll2.webp",
+		description: "doomsday, salvation!",
+		episodes: "12 episodes",
+		year: "2025",
+		genre: ["末日", "拯救", "向上"],	
+		studio: "C2C",
+		link: "https://yhdm.org.cn/v/42798-1-1/",
+		progress: 9,
+		totalEpisodes: 12,
+		startDate: "2025-10",
+		endDate: "2025-11",
+	},
+	{
+		title: "沧元图2",
+		status: "watching",
+		rating: 9.2,
+		cover: "/assets/anime/cyt.webp",
+		description: "杀了他，我就是神尊",
+		episodes: "12 episodes",
+		year: "2024",
+		genre: ["热血", "科幻", "修炼"],	
+		studio: "优酷",
+		link: "https://yhdm.org.cn/v/40651-4-1/",
+		progress: 6,
+		totalEpisodes: 12,
+		startDate: "2025-07",
+		endDate: "2025-10",
+	},
+	{
+		title: "仙王的日常生活",
+		status: "completed",
+		rating: 7.9,
+		cover: "/assets/anime/xwrcsh.webp",
+		description: "装B的王令",
+		episodes: "12 episodes",
+		year: "2024",
+		genre: ["搞笑", "修真", "中二"],	
+		studio: "C2C",
+		link: "https://yhdm.org.cn/v/44171-1-1/",
+		progress: 12,
+		totalEpisodes: 12,
+		startDate: "2024-07",
+		endDate: "2024-10",
+	},
+	{
+		title: "莉可丽丝",
+		status: "completed",
+		rating: 9.8,
+		cover: "/assets/anime/lkls.webp",
+		description: "Girl's gunfight",
+		episodes: "12 episodes",
+		year: "2022",
+		genre: ["动作", "生活碎片", "百合"],
+		studio: "A-1 Pictures",
+		link: "https://www.bilibili.com/bangumi/media/md28338623",
+		progress: 12,
+		totalEpisodes: 12,
+		startDate: "2022-07",
+		endDate: "2022-09",
+	},
+	{
+		title: "沉默魔女的秘密",
+		status: "watching",
+		rating: 9.0,
+		cover: "/assets/anime/cmmn.webp",
+		description: "silence, magic!",
+		episodes: "12 episodes",
+		year: "2024",
+		genre: ["日常", "治愈", "魔法"],	
+		studio: "C2C",
+		link: "https://www.bilibili.com/bangumi/media/md26625039",
+		progress: 8,
+		totalEpisodes: 12,
+		startDate: "2025-07",
+		endDate: "2025-10",
+	},
+	{
+		title: "时光流逝, \n饭菜依旧美味",
+		status: "watching",
+		rating: 9.5,
+		cover: "/assets/anime/sgls.webp",
+		description: " daily life, sweet ",
+		episodes: "12 episodes",
+		year: "2025",
+		genre: ["日常", "百合", "美食"],
+		studio: "P.A.WORKS",
+		link: "https://yhdm.org.cn/v/43178-1-1/",
+		progress: 8,
+		totalEpisodes: 12,
+		startDate: "2015-07",
+		endDate: "2015-09",
+	},
+	{
+		title: "想吃掉我的非人少女",
+		status: "watching",
+		rating: 9.2,
+		cover: "/assets/anime/frsn.webp",
+		description: "Meeting ",
+		episodes: "12 episodes",
+		year: "2025",
+		genre: ["日常", "百合", "治愈"],
+		studio: "Studio Lings",
+		link: "https://yhdm.org.cn/v/47048-1-1/",
+		progress: 1,
+		totalEpisodes: 9,
+		startDate: "2025-10",
+		endDate: "202x--",
+	},
+	{
+		title: "魔法科高中的劣等生",
+		status: "completed",
+		rating: 9.0,
+		cover: "/assets/anime/mfk.webp",
+		description: "A group of bwin' warm school life",
+		episodes: "12 episodes",
+		year: "2014",
+		genre: ["校园生活", "兄妹", "魔法"],
+		studio: "Square Enix",
+		link: "https://yhdm.org.cn/v/43785-1-1/",
+		progress: 12,
+		totalEpisodes: 12,
+		startDate: "2014-04",
+		endDate: "2014-06",
+	},
+	
+];
+
+export default localAnimeList;
