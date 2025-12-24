@@ -8,7 +8,7 @@ category: 技巧
 draft: false
 ---
 
-
+### <span style="color:red"><u><i>测试文档。</i></u>
 
 This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
 
