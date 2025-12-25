@@ -50,6 +50,12 @@ const diaryData: DiaryItem[] = [
 			" 1.添加文章《Mizuki托管至Cloudflare Pages》2.优化全部文章/更新一篇日记 3.config.ts网址标头更改 4.注意下次重点更新文章Git部分 ",
 		date: "2025-12-16T21:43:00Z",
 	},
+	{
+		id: 8,
+		content:
+			" 1.优化文章《如何使用Github-全球最大的同性交友网站》2.优化全部文章/更新一篇日记 3.config.ts/assets/images/avatar.webp更改 4.重点更新文章Git部分 ",
+		date: "2025-12-25T11:05:00Z",
+	},
 ];
 
 // 获取日记统计数据

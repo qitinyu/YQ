@@ -388,12 +388,12 @@ export const commentConfig: CommentConfig = {
 // 公告
 export const announcementConfig: AnnouncementConfig = {
 	title: "今日公告", // 公告标题
-	content: "更新（优化）全部文章/更新一篇日记/config.ts网址标头更改", // 公告内容
+	content: "优化文章《如何使用Github-全球最大的同性交友网站》|优化全部文章/更新一篇日记 |修改config.tsavatar.webp更改|重点更新文章Git部分", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
 		text: "了解更多？", // 链接文本
-		url: "http://localhost:4321/posts/20251216%E9%9F%B3%E4%B9%90/2025121601%E9%9F%B3%E4%B9%90/", // 链接 URL
+		url: "https://yqamm.pages.dev/posts/2025122401cf%E6%89%98%E7%AE%A1/20251224cf%E6%89%98%E7%AE%A1/", // 链接 URL
 		external: true, // 内部链接
 	},
 };
