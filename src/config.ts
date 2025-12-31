@@ -388,7 +388,7 @@ export const commentConfig: CommentConfig = {
 // 公告
 export const announcementConfig: AnnouncementConfig = {
 	title: "今日公告", // 公告标题
-	content: "优化文章《如何使用Github-全球最大的同性交友网站》|优化全部文章/更新一篇日记 |修改config.tsavatar.webp更改|重点更新文章Git部分", // 公告内容
+	content: "更新一篇日记 |修改docs/README.MD|更改about.md|更改docs/images/x.webp", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -599,7 +599,7 @@ export const sakuraConfig: SakuraConfig = {
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/pio/model.json"], // 默认模型路径
+	models: ["/public/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
